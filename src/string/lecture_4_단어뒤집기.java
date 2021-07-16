@@ -7,7 +7,7 @@ public class lecture_4_단어뒤집기 {
         N 개의 단어가 주어지면 각 단어를 뒤집어 출력하는 프로그램을 작성하시오
      */
     public static String solution(String str) {
-//        return new StringBuffer(str).reverse().toString();
+//        return new StringBuilder(str).reverse().toString();
         char [] s = str.toCharArray();
         int lt = 0;
         int rt = str.length()-1;
